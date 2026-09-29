@@ -1,7 +1,5 @@
 # Vortex Supplements
 
-Este projeto foi feito como trabalho escolar para controlar o estoque de produtos de suplementos.
-
 ## Integrantes
 - Vinicius Luz
 - Joaquim T
@@ -14,36 +12,13 @@ O programa serve para cadastrar, listar, editar e excluir produtos do estoque.
 ## Como rodar
 Abra o terminal na pasta do projeto e execute:
 
-```bash
+bash
 python main.py
-```
 
-## O que o programa faz
-- cadastra produtos
-- mostra os produtos na tabela
-- busca por nome
-- edita itens
-- exclui itens com confirmação
-- salva tudo em SQLite
-- mostra um resumo do estoque
+# DOCS
 
-## Arquivos
-- `main.py` - inicia o programa
-- `interface.py` - cria a interface gráfica
-- `dados.py` - salva e lê os dados no banco
-- `validacoes.py` - valida os campos
+## Requisitos funcionais e não funcionais.
+https://docs.google.com/document/d/1NFwiYLxBNDQOm4g38wqdrkw-e24P_MfDCebjrwhhbfM/edit?tab=t.0
 
-## Validações
-- nome obrigatório
-- quantidade deve ser número inteiro
-- preço deve ser maior que zero
-- status deve ser "Disponível" ou "Sem estoque"
-
-## Limitações
-- é um programa simples
-- funciona localmente
-- não tem login nem cadastro de usuário
-
-## Observação
-Esse projeto foi feito com Python e Tkinter para aprender interface gráfica e banco de dados de forma simples.
-
+# Arquivo de pesquisa respondido.
+https://docs.google.com/document/d/1qTU52YoZNg1P8Ko238uxjWB5z-3Be7rf/edit
